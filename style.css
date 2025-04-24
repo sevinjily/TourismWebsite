@@ -1,0 +1,75 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .head{
+        position: sticky;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+    .head .logo h1{
+        font-weight: bold;
+    }
+    .head .logo span{
+    background-color: rgb(4, 251, 99);
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 30px;
+    margin-right: 10px;
+    }
+
+    .head .middle-sec ,.head .lan,.head .logo{
+    display: flex;
+        align-items:center;
+        justify-content: space-between;
+        /* border: 1px solid red;    */
+    }
+
+    .head .middle-sec ul ,.head .lan ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        /* border: 1px solid black; */
+    }
+
+    .middle-sec ul li,.lan ul li{
+    list-style: none;
+    padding: 10px 20px;
+    /* border: 1px solid red; */
+    /* border: 1px solid red; */
+    }
+    .lan ul li button{
+        color: rgb(255, 255, 255);
+        background-color: black;
+        padding: 10px 20px;
+        border-radius: 60px;
+        border-style: none;
+    /* margin-bottom: 40px; */
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+
+    }
+    .middle-sec ul li:hover,
+    .lan ul li:hover{
+    background-color: rgb(4, 251, 99);
+    padding: 10px 20px;
+    border-radius: 30px;    
+    transition: ease-in-out 0.5s;
+    }
+    .lan ul li:last-child:hover {
+        background-color: transparent;
+        border-radius: 0;   
+    }
+    .lan ul li button:hover {
+        background-color: rgb(4, 251, 99);
+        color: black;
+        transition: ease-in-out 0.5s;
+    }
+  
+    
+   
+    
